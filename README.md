@@ -2,12 +2,6 @@
 
 This project is a comprehensive analysis of Amazon product data using **Microsoft Excel**. The goal is to uncover insights related to pricing, discounts, ratings, and customer engagement by leveraging **data cleaning**, **pivot tables**, **charts**, and **formulas**.
 
----
-
-## Project Structure
-Amazon-Excel-Data-Analysis/
-├── Amazon case study.xlsx # Main Excel file with data and analysis
-├── README.md # Project documentation (this file)
 
 
 ---
@@ -29,7 +23,7 @@ Performed in Excel before analysis:
 - Converted `actual_price`, `discounted_price`, `rating`, and `rating_count` to numeric types.
 - Extracted **main_category** from multi-level category fields.
 - Created **price_bucket** column based on `actual_price`:
-  - `<₹200`, `₹200–₹500`, and `>₹500`
+  - `<200`, `200–500`, and `>500`
 - Created **potential_revenue** = `actual_price × rating_count`
 - Ensured data is inside an Excel Table (`Ctrl + T`) for dynamic PivotTables.
 
