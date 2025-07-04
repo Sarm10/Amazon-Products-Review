@@ -1,10 +1,6 @@
-# Amazon Product Data Analysis (Microsoft Excel)
+# Amazon Product Data Analysis (Using Microsoft Excel)
 
 This project is a comprehensive analysis of Amazon product data using **Microsoft Excel**. The goal is to uncover insights related to pricing, discounts, ratings, and customer engagement by leveraging **data cleaning**, **pivot tables**, **charts**, and **formulas**.
-
-
-
----
 
 ## Objectives
 
@@ -12,8 +8,6 @@ This project is a comprehensive analysis of Amazon product data using **Microsof
 2. Derive insights using pivot tables, calculated columns, and charts.
 3. Visualize relationships between key variables like rating and discount.
 4. Answer 14 key business questions based on the dataset.
-
----
 
 ## Data Cleaning Steps
 
@@ -26,8 +20,6 @@ Performed in Excel before analysis:
   - `<200`, `200–500`, and `>500`
 - Created **potential_revenue** = `actual_price × rating_count`
 - Ensured data is inside an Excel Table (`Ctrl + T`) for dynamic PivotTables.
-
----
 
 ## Key Analytical Tasks & How They Were Done
 
@@ -48,8 +40,6 @@ Performed in Excel before analysis:
 | 13. Highest discounts by category | PivotTable (Avg `discount_percentage` sorted descending) |
 | 14. Top 5 products by combined rating & reviews | New score = `rating × log10(review_count + 1)` |
 
----
-
 ## Tools & Features Used
 
 - Microsoft Excel 2016+
@@ -59,8 +49,6 @@ Performed in Excel before analysis:
 - Charts: Scatter plot, column chart, bar chart
 - Conditional formatting & data filtering
 
----
-
 ## Key Learnings
 
 - Data cleaning is critical for accurate insights.
@@ -68,12 +56,10 @@ Performed in Excel before analysis:
 - Visualizing relationships (e.g., rating vs discount) helps identify patterns.
 - Excel formulas can be combined for custom metrics like potential revenue or hybrid ranking.
 
----
-
 ## Author
 
 **Student:** *[Samuel Adebiyi Ibukun]*  
-**Institution:** *[Digital Skill Africa(DSA)]*  
+**Institution:** *[Digital Skillup Africa(DSA)]*  
 **Course:** Data Analysis
 
 ---
